@@ -1,1 +1,1 @@
-# html-css-demo7
+# Blended. Lesson 1
