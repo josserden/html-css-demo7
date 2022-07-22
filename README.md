@@ -1,5 +1,5 @@
-# Blended. Lesson 1
+# Blended. Lesson 2
 
-## Посилання на **не обов'язковий** макет
+## Цікаве посилання
 
-[Макет](<https://www.figma.com/file/wkrogN3RbI0ukjTMvWYwvS/Britlex-Language-School-(Copy)-(Copy)?node-id=0%3A1>)
+[CSS GRID GENERATOR](<https://cssgrid-generator.netlify.app/)
