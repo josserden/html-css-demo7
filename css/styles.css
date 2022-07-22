@@ -1,0 +1,152 @@
+:root {
+  /* Fonts */
+  --main-font: 'Poppins', sans-serif;
+
+  /* Colors */
+  --main-light: #fff;
+  --main-dark: #000;
+  --main-font-color: #8f95a5;
+  --secondary-font-color: #263238;
+
+  --logo-accent: #939393;
+  --card-bg: #f5f5f5;
+  --badge-bg: #eeeeee;
+  --badge-text: #546269;
+  --border-clr: #c4c4c4;
+
+  --text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Global Styles */
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+
+  color: var(--main-font-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.accent {
+  color: var(--logo-accent);
+}
+
+.section {
+  background-color: var(--main-light);
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.67;
+
+  color: var(--main-dark);
+}
+
+.container {
+  width: 1330px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+.header {
+  background-color: var(--main-light);
+}
+
+.logo {
+  font-size: 36px;
+  line-height: 1.5;
+
+  color: var(--main-dark);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--secondary-font-color);
+  text-transform: capitalize;
+}
+
+.header-btn {
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: var(--main-dark);
+
+  text-shadow: var(--text-shadow);
+  border: 2px solid var(--secondary-font-color);
+  background-color: var(--main-light);
+  border-radius: 5px;
+}
+
+/* Skills */
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 3 / 2;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+.skills-item {
+  background: var(--card-bg);
+  border-radius: 10px;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 2.67;
+
+  color: var(--secondary-font-color);
+}
+
+.skills-text,
+.skills-btn {
+  line-height: 1.5;
+}
+
+.skills-btn {
+  font-weight: 500;
+  font-size: 20px;
+
+  color: var(--main-light);
+
+  background: var(--secondary-font-color);
+  border-radius: 5px;
+}
