@@ -2,4 +2,4 @@
 
 ## Цікаве посилання
 
-[CSS GRID GENERATOR](<https://cssgrid-generator.netlify.app/)
+[CSS GRID GENERATOR](https://cssgrid-generator.netlify.app/)
